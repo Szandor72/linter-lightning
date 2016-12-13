@@ -1,32 +1,19 @@
-linter-phpmd
+linter-lightning
 =========================
-[![Build Status](https://travis-ci.org/AtomLinter/linter-phpmd.svg)](https://travis-ci.org/AtomLinter/linter-phpmd)
-[![Dependency Status](https://david-dm.org/AtomLinter/linter-phpmd.svg)](https://david-dm.org/AtomLinter/linter-phpmd)
-[![apm](https://img.shields.io/apm/v/linter-phpmd.svg)](https://atom.io/packages/linter-phpmd)
-[![apm](https://img.shields.io/apm/dm/linter-phpmd.svg)](https://atom.io/packages/linter-phpmd)
 
-This linter plugin for [Linter](https://github.com/AtomLinter/Linter) provides
-an interface to [phpmd](http://phpmd.org/documentation/index.html). It will be
-used with files that have the "PHP" syntax or PHP embedded within HTML. A list
-of the rules checked and their definitions can be found here:
-http://phpmd.org/rules/index.html
+This Atom linter plugin for [Linter](https://github.com/AtomLinter/Linter) provides
+an interface to [the Lightning Linter in the Heroku Toolbelt](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/cli_intro.htm).
+
+#Todos
+- make it work
+- find out if components need their own language definition
+
 
 ## Installation
-### `phpmd` installation
-Before installing this plugin, you must ensure that `phpmd` is installed on your
-system. For detailed instructions see [phpmd.org](http://phpmd.org/download/index.html),
-the simplified steps are:
-
-0. Install [php](http://php.net).
-0. Install [Composer](https://getcomposer.org/download/).
-0. Install `phpmd` by typing the following in a terminal:
-```ShellSession
-composer global require phpmd/phpmd
-```
-
-After verifying that `phpmd` works from your terminal, proceed to install the linter-phpmd plugin.
+### `Toolbelt` installation
+Before installing this plugin, you must ensure that `Heroku CLI toolbelt` is installed on your
+system. For detailed instructions see [Heroku.com](https://devcenter.heroku.com/articles/heroku-cli), the simplified steps are:
 
 ### Plugin installation
-```ShellSession
-$ apm install linter-phpmd
-```
+
+After verifying that `Lightning Linter` works from your terminal, proceed to install the linter-lightning plugin.
