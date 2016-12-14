@@ -2,7 +2,7 @@
   "name": "linter-lightning",
   "main": "./lib/main.js",
   "private": true,
-  "version": "0.1",
+  "version": "0.0.1",
   "description": "Lint Salesforce Lightning Components .js files on the fly, using Heroku Toolbelt",
   "repository": "https://github.com/Szandor72/linter-lightning",
   "license": "MIT",
@@ -20,7 +20,7 @@
     "executablePath": {
       "type": "string",
       "title": "Heroku Toolbelt Executable Path",
-      "default": "heroku",
+      "default": "C:\\Program Files (x86)\\Heroku\\bin\\heroku.bat",
       "order": 1
     },
     "rulesets": {
