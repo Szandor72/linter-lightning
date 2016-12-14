@@ -1,47 +1,37 @@
 {
-  "name": "linter-phpmd",
+  "name": "linter-lightning",
   "main": "./lib/main.js",
   "private": true,
-<<<<<<< HEAD
   "version": "0.0.1",
   "description": "Lint Salesforce Lightning Components .js files on the fly, using Heroku Toolbelt",
   "repository": "https://github.com/Szandor72/linter-lightning",
-=======
-  "version": "1.5.2",
-  "description": "Lint PHP on the fly, using phpmd",
-  "repository": "https://github.com/AtomLinter/linter-phpmd",
->>>>>>> parent of f8a4467... Initial Commit
   "license": "MIT",
   "keywords": [
     "lint",
     "linter",
-    "phpmd",
-    "php"
+    "lightning",
+    "salesforce",
+    "javascript"
   ],
   "bugs": {
-    "url": "https://github.com/AtomLinter/linter-phpmd/issues"
+    "url": "https://github.com/Szandor72/linter-lightning/issues"
   },
   "configSchema": {
     "executablePath": {
       "type": "string",
-<<<<<<< HEAD
       "title": "Heroku Toolbelt Executable Path",
       "default": "C:\\Program Files (x86)\\Heroku\\bin\\heroku.bat",
-=======
-      "title": "PHPMD Executable Path",
-      "default": "phpmd",
->>>>>>> parent of f8a4467... Initial Commit
       "order": 1
     },
     "rulesets": {
       "type": "string",
-      "title": "PHPMD Rulesets",
-      "default": "cleancode,codesize,controversial,design,naming,unusedcode",
-      "description": "Comma separated list of rulesets to use in phpmd. You can also enter the name of your ruleset file (example: `ruleset.xml`) to load that from the current file's directory (or any of the parent directories)",
+      "title": "Path to a custom ESLint configuration.",
+      "default": "",
+      "description": "Path to a custom ESLint configuration. Only code styles rules are picked up, the rest are ignored.",
       "order": 2
     }
   },
-  "homepage": "https://github.com/AtomLinter/linter-phpmd#readme",
+  "homepage": "https://github.com/Szandor72/linter-lightning/#readme",
   "dependencies": {
     "atom-linter": "^8.0.0",
     "atom-package-deps": "^4.0.1"
@@ -49,43 +39,14 @@
   "engines": {
     "atom": ">=1.4.0 <2.0.0"
   },
-  "devDependencies": {
-    "eslint": "^3.6.0",
-    "eslint-config-airbnb-base": "^8.0.0",
-    "eslint-plugin-import": "^1.16.0"
-  },
   "package-deps": [
     "linter"
   ],
-  "scripts": {
-    "lint": "eslint .",
-    "test": "apm test"
-  },
   "providedServices": {
     "linter": {
       "versions": {
         "1.0.0": "provideLinter"
       }
-    }
-  },
-  "eslintConfig": {
-    "extends": "airbnb-base",
-    "rules": {
-      "global-require": "off",
-      "import/no-unresolved": [
-        "error",
-        {
-          "ignore": [
-            "atom"
-          ]
-        }
-      ]
-    },
-    "env": {
-      "node": true
-    },
-    "globals": {
-      "atom": true
     }
   }
 }
