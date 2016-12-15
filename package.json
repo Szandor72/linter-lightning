@@ -20,7 +20,7 @@
     "executablePath": {
       "type": "string",
       "title": "Heroku Toolbelt Executable Path",
-      "default": "C:\\Program Files (x86)\\Heroku\\bin\\heroku.bat",
+      "default": "heroku",
       "order": 1
     },
     "rulesets": {
