@@ -9,8 +9,10 @@ an interface to [the Lightning Linter in the Heroku Toolbelt](https://developer.
 - Windows has PATH issues with sb_exec and the heroku toolbelt, any advise appreciated
 
 ##Features
+- per file linting on save (deviation from default cli behaviour which scans whole directories only)
+- will only lint lightning component .js files, no others
 - show errors only
-- use additional custom `.eslintrc` (not functional yet)
+- use additional custom `.eslintrc` (not functional yet, will add if someone needs it)
 
 ## Installation
 ### `Toolbelt` installation
