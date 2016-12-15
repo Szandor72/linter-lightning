@@ -12,14 +12,18 @@ an interface to [the Lightning Linter in the Heroku Toolbelt](https://developer.
 ## Installation
 ### `Toolbelt` installation
 Before installing this plugin, you must ensure that `Heroku CLI toolbelt` is installed on your
-system. For detailed instructions see [Heroku.com](https://devcenter.heroku.com/articles/heroku-cli), the simplified steps are:
+system. For detailed instructions see [Heroku.com](https://devcenter.heroku.com/articles/heroku-cli)
+
+##Features
+- show errors only
+- use additional custom `.eslintrc` (not functional yet)
 
 ### Plugin installation
 
 After verifying that `Lightning Linter` works from your terminal, proceed to install the linter-lightning plugin.
     - copy to atom/packages
     - open terminal
-    - run adm install
+    - run `adm install`
 
 ### Kudos to
 - the makers of [linter-phpmd](https://github.com/AtomLinter/linter-phpmd) from which I created this linter

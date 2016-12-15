@@ -23,9 +23,16 @@
       "default": "heroku",
       "order": 1
     },
+    "showErrorsOnly": {
+      "type": "boolean",
+      "title": "Show Errors only",
+      "default": "false",
+      "description": "If set to true, linter-lightning will display Errors only, no warnings. Default: false",
+      "order": 2
+    },
     "rulesets": {
       "type": "string",
-      "title": "Path to a custom ESLint configuration.",
+      "title": "Path to a custom ESLint configuration. [Not functional, leave empty for now]",
       "default": "",
       "description": "Path to a custom ESLint configuration. Only code styles rules are picked up, the rest are ignored.",
       "order": 2
