@@ -20,6 +20,7 @@ system. For detailed instructions see [Heroku.com](https://devcenter.heroku.com/
 ### Plugin installation
 
 After verifying that `Lightning Linter` works from your terminal, proceed to install the linter-lightning plugin.
+
     - copy to atom/packages
     - open terminal
     - run `adm install`
