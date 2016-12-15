@@ -22,4 +22,5 @@ After verifying that `Lightning Linter` works from your terminal, proceed to ins
     - run adm install
 
 ### Kudos to
-- the makers of (linter-phpmd)[https://github.com/AtomLinter/linter-phpmd] from which I try to learn creating a Linter
+- the makers of [linter-phpmd](https://github.com/AtomLinter/linter-phpmd) from which I created this linter
+- [ArcaneMagus](https://github.com/Arcanemagus)
