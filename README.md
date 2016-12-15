@@ -19,13 +19,12 @@ system. For detailed instructions see [Heroku.com](https://devcenter.heroku.com/
 
 ### Plugin installation
 
-After verifying that `Lightning Linter` works from your terminal, proceed to install the linter-lightning plugin as any other plugin. Should this __fail__, please: 
+After verifying that `Lightning Linter` works from your terminal, proceed to install the linter-lightning plugin as any other plugin. Should this __fail__, please:
 
     - copy to atom/packages
     - open terminal
     - run `adm install`
 
-Maybe one of the Atom Gurus will help me publish this as a package
 
 ### Kudos to
 - the makers of [linter-phpmd](https://github.com/AtomLinter/linter-phpmd) from which I created this linter
